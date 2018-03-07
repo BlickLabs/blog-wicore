@@ -259,7 +259,7 @@ Tags: blue, white, light, two-columns, right-sidebar, responsive-layout, custom-
   padding: 35px;
 }
 
-.post-date {
+.rpwwt-post-date {
   color: #c6c6c6;
   font-family: 'GandhiSans';
   font-size: 11px;
@@ -294,7 +294,7 @@ Tags: blue, white, light, two-columns, right-sidebar, responsive-layout, custom-
   font-style: normal;
   font-weight: 700;
   letter-spacing: 0.6px;
-  line-height: 28px;
+  line-height: 16px;
   text-align: left;
 }
 
@@ -517,6 +517,7 @@ Tags: blue, white, light, two-columns, right-sidebar, responsive-layout, custom-
 
 .widget-area ul {
   background-color: #fff;
+  padding: 45px 35px;
 }
 
 .content-area-wicore {
@@ -535,6 +536,10 @@ Tags: blue, white, light, two-columns, right-sidebar, responsive-layout, custom-
 .entry-content img {
   height: auto;
   width: 100%;
+}
+
+.rpwwt-post-date {
+  margin-top: 6px;
 }
 
 /*--------------------------------------------------------------
@@ -3503,8 +3508,12 @@ aside.widget-area {
 }
 
 @media screen and (max-width: 768px) {
+  .site-content-title-container {
+    margin-bottom: 40px;
+  }
+
   .site-content-wrapper-wicore {
-    padding-top: 100px;
+    padding-top: 80px;
   }
 
   .site-main-wicore {
@@ -3521,5 +3530,89 @@ aside.widget-area {
 
   .entry-content-wicore {
     padding: 0 25px 15px 25px;
+  }
+
+  .wicore-article:first-child > .hentry-wrapper-wicore .read-more-button {
+    font-size: 10px;
+    letter-spacing: 2.3px;
+    height: 33px;
+    width: 111px;
+  }
+
+  .wicore-article:first-child > .hentry-wrapper-wicore .entry-content-wicore {
+    font-size: 12px;
+    line-height: 19px;
+  }
+
+  .wicore-article:first-child > .hentry-wrapper-wicore .entry-header {
+    min-height: 228px !important;
+  }
+
+  .wicore-article:first-child > .hentry-wrapper-wicore .entry-title-wicore {
+    font-size: 14px;
+  }
+
+  .entry-title {
+    line-height: 14px;
+  }
+
+  .entry-title-wicore {
+    line-height: 14px;
+  }
+
+  .entry-header-wrapper-wicore {
+    width: 100% !important;
+  }
+
+  .entry-hero-title-wicore {
+    line-height: 24px !important;
+  }
+
+  .entry-content-single {
+    padding: 0;
+  }
+
+  .entry-hero-wrapper {
+    margin-top: 15px;
+    padding-left: 8px;
+  }
+
+  .entry-content-single {
+    font-size: 14px;
+    line-height: 20px;
+  }
+
+  .site-content-wrapper .widget-area {
+    margin-top: 10px;
+  }
+
+  .wicore-article:first-child {
+    padding-bottom: 0 !important;
+  }
+
+  .hentry-wrapper-wicore {
+    height: auto !important;
+  }
+}
+
+@media screen and (min-width: 895px) and (max-width: 1019px) {
+  .site-content-wrapper .widget-area {
+    padding-top: 0;
+  }
+}
+
+@media screen and (min-width: 769px) and (max-width: 1205px) {
+  .site-main-wicore {
+    flex-direction: column;
+  }
+
+  .wicore-article {
+    width: 100%;
+  }
+}
+
+@media screen and (min-width: 769px) and (max-width: 895px) {
+  .entry-header-wrapper-wicore {
+    margin-left: 0 !important;
   }
 }
