@@ -32,36 +32,36 @@
 
   <nav class="site-navbar nunitosans-extrabold nav-strongblue">
     <div>
-      <a href="index.html">
-        <img class="site-navbar-logo" src="<? echo get_template_directory_uri() . '/img/logos/wicore-white-logo.png' ?>" alt="Logo">
+      <a href="http://wicore.mx/">
+        <img class="site-navbar-logo" src="<?php echo get_template_directory_uri() . '/img/logos/wicore-white-logo.png' ?>" alt="Logo">
       </a>
     </div>
     <div class="navbar-option-link-container">
-      <a href="index.html" class="navbar-option-link">
+      <a href="http://wicore.mx/" class="navbar-option-link">
         <div class="navbar-option-link-content">
           <span>Inicio</span>
           <div class="link-decorator"></div>
         </div>
       </a>
-      <a href="servicios.html" class="navbar-option-link">
+      <a href="http://wicore.mx/servicios.html" class="navbar-option-link">
         <div class="navbar-option-link-content">
           <span>Servicios</span>
           <div class="link-decorator"></div>
           </div>
       </a>
-      <a href="nosotros.html" class="navbar-option-link">
+      <a href="http://wicore.mx/nosotros.html" class="navbar-option-link">
         <div class="navbar-option-link-content">
           <span>Nosotros</span>
           <div class="link-decorator"></div>
         </div>
       </a>
-      <a href="servicios.html" class="navbar-option-link active-link active-link-scroll">
+      <a href=http://blog.wicore.getmore.mx/" class="navbar-option-link active-link active-link-scroll">
         <div class="navbar-option-link-content">
           <span>Blog</span>
           <div class="link-decorator decorator-active"></div>
         </div>
       </a>
-      <a href="contactanos.html" class="navbar-option-link">
+      <a href="http://wicore.mx/contactanos.html" class="navbar-option-link">
         <div class="navbar-option-link-content">
           <span>Contáctanos</span>
           <div class="link-decorator"></div>
@@ -71,7 +71,7 @@
     <div class="navbar-phone-container">
       <div class="navbar-phone-content">
         <div class="navbar-phone-icon-container">
-          <img class="navbar-phone-icon" src="<? echo get_template_directory_uri() . '/img/icons/phone-icon.png'?>">
+          <img class="navbar-phone-icon" src="<?php echo get_template_directory_uri() . '/img/icons/phone-icon.png'?>">
         </div>
         <span class="navbar-phone-number">55.1209.1276</span>
       </div>
@@ -88,36 +88,36 @@
     <div class="hamburger-menu-container" id="menuContainer" data-attribute="">
       <div class="hamburger-menu-header" data-attribute="">
         <div class="" data-attribute="">
-          <a href="" data-attribute="">
-            <img class="hamburger-logo" src="<? echo get_template_directory_uri() . '/img/logos/wicore-white-logo.png'?>" data-attribute="" alt="logo hamburger">
+          <a href="http://wicore.mx/" data-attribute="">
+            <img class="hamburger-logo" src="<?php echo get_template_directory_uri() . '/img/logos/wicore-white-logo.png'?>" data-attribute="" alt="logo hamburger">
           </a>
         </div>
         <div class="hamburger-close-container" id="hideHamburger">
-          <img class="hamburger-close" src="<? echo get_template_directory_uri() . '/img/icons/close-menu.png' ?>">
+          <img class="hamburger-close" src="<?php echo get_template_directory_uri() . '/img/icons/close-menu.png' ?>">
         </div>
       </div>
       <div class="hamburger-menu-body" data-attribute="">
-        <a data-attribute="" href="index.html" class="hamburger-option-link">
+        <a data-attribute="" href="http://wicore.mx/" class="hamburger-option-link">
           <div class="hamburger-text-container">
             <span class="hamburger-text">Inicio</span>
           </div>
         </a>
-        <a data-attribute="" href="servicios.html" class="hamburger-option-link">
+        <a data-attribute="" href="http://wicore.mx/servicios.html" class="hamburger-option-link">
           <div class="hamburger-text-container">
             <span class="hamburger-text">Servicios</span>
           </div>
         </a>
-        <a data-attribute="" href="nosotros.html" class="hamburger-option-link">
+        <a data-attribute="" href="http://wicore.mx/nosotros.html" class="hamburger-option-link">
           <div class="hamburger-text-container">
             <span class="hamburger-text">Nosotros</span>
           </div>
         </a>
-        <a data-attribute="" href="" class="hamburger-option-link">
+        <a data-attribute="" href="http://blog.wicore.getmore.mx/" class="hamburger-option-link">
           <div class="hamburger-text-container">
             <span class="hamburger-text hamburger-active">Blog</span>
           </div>
         </a>
-        <a data-attribute="" href="contactanos.html" class="hamburger-option-link">
+        <a data-attribute="" href="http://wicore.mx/contactanos.html" class="hamburger-option-link">
           <div class="hamburger-text-container">
             <span class="hamburger-text">Contáctanos</span>
           </div>
