@@ -1,0 +1,115 @@
+.site-footer {
+  background-color: #fff;
+  box-shadow: 0 7px 30px 0 rgba(0,0,0,0.22);
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  height: 300px;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  margin: 0 108px 108px 108px;
+  padding: 73px 70px 0 70px;
+}
+
+.site-footer-logo {
+  height: 25px;
+  margin-bottom: 25px;
+  width: 115px;
+}
+
+.site-footer-column {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-direction: column;
+  flex-direction: column;
+}
+
+.site-footer-row {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-direction: row;
+  flex-direction: row;
+}
+
+.site-footer-info-section {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  margin-left: 130px;
+  width: 100%;
+}
+
+.site-footer-info-content {
+  margin-bottom: 30px;
+}
+
+.site-footer-titles {
+  color: #313131;
+  font-size: 0.875rem;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+}
+
+.site-footer-titles-container {
+  margin-bottom: 30px;
+}
+
+.site-footer-text {
+  color: #545454;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  font-size: 0.75rem;
+  line-height: 19px;
+}
+
+.site-footer-link {
+  color: #545454;
+  transition: all 0.3s;
+}
+
+.site-footer-icon {
+  height: 22px;
+  width: 22px;
+}
+
+.site-footer-icon:first-child {
+  margin-right: 3px;
+}
+
+.footer-link-active,
+.site-footer-link:hover {
+  font-weight: 800;
+  text-decoration: underline;
+  transition: all 0.3s;
+}
+
+.first-col-info {
+  margin-bottom: 20px;
+}
+
+@media screen and (max-width: 786px) {
+  .site-footer {
+    box-shadow: 0px -10px 7px -1px rgba(0,0,0,0.22);
+    -ms-flex-direction: column;
+    flex-direction: column;
+    height: 560px;
+    margin: 0;
+    padding: 73px 30px;
+  }
+
+  .site-footer-info-section {
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    margin: 40px 0 0 0;
+  }
+
+  .site-footer-titles-container {
+    margin-bottom: 15px;
+  }
+}
