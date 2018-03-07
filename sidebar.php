@@ -25,7 +25,7 @@ if ( ! is_active_sidebar( 'sidebar-1' ) ) {
   <div class="widget-social-networks">
     <h2 class="widget-title">Redes sociales</h2>
     <div class="widget-social-icons-container">
-      <a href="">
+      <a href="https://www.linkedin.com/company/wicoremx/" target="_blank">
         <img class="widget-social-icons" src="<? echo get_template_directory_uri() . '/img/icons/in-icon.png' ?>">
       </a>
       <a href="">
