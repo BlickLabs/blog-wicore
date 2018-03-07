@@ -26,10 +26,10 @@ if ( ! is_active_sidebar( 'sidebar-1' ) ) {
     <h2 class="widget-title">Redes sociales</h2>
     <div class="widget-social-icons-container">
       <a href="https://www.linkedin.com/company/wicoremx/" target="_blank">
-        <img class="widget-social-icons" src="<? echo get_template_directory_uri() . '/img/icons/in-icon.png' ?>">
+        <img class="widget-social-icons" src="<?php echo get_template_directory_uri() . '/img/icons/in-icon.png' ?>">
       </a>
       <a href="">
-        <img class="widget-social-icons" src="<? echo get_template_directory_uri() . '/img/icons/fb-icon.svg' ?>">
+        <img class="widget-social-icons" src="<?php echo get_template_directory_uri() . '/img/icons/fb-icon.svg' ?>">
       </a>
     </div>
   </div>
