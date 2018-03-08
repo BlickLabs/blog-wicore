@@ -517,7 +517,7 @@ Tags: blue, white, light, two-columns, right-sidebar, responsive-layout, custom-
 
 .widget-area ul {
   background-color: #fff;
-  padding: 45px 35px;
+  padding: 45px 35px !important;
 }
 
 .content-area-wicore {
@@ -647,7 +647,7 @@ li > ol {
 ## Widgets
 --------------------------------------------------------------*/
 .site-content-wrapper .widget-area {
-	border-top: 1.5em solid #2c313f;
+	/*border-top: 1.5em solid #2c313f;*/
 	padding: 1.5em 1.5em 0;
 	width: 100%;
 }
