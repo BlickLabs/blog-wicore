@@ -40,31 +40,26 @@
       <a href="http://wicore.mx/" class="navbar-option-link">
         <div class="navbar-option-link-content">
           <span>Inicio</span>
-          <div class="link-decorator"></div>
         </div>
       </a>
       <a href="http://wicore.mx/servicios.html" class="navbar-option-link">
         <div class="navbar-option-link-content">
           <span>Servicios</span>
-          <div class="link-decorator"></div>
           </div>
       </a>
       <a href="http://wicore.mx/nosotros.html" class="navbar-option-link">
         <div class="navbar-option-link-content">
           <span>Nosotros</span>
-          <div class="link-decorator"></div>
         </div>
       </a>
       <a href=http://blog.wicore.getmore.mx/" class="navbar-option-link active-link active-link-scroll">
         <div class="navbar-option-link-content">
           <span>Blog</span>
-          <div class="link-decorator decorator-active"></div>
         </div>
       </a>
       <a href="http://wicore.mx/contactanos.html" class="navbar-option-link">
         <div class="navbar-option-link-content">
           <span>Contáctanos</span>
-          <div class="link-decorator"></div>
         </div>
       </a>
     </div>
