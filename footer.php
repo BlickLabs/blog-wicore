@@ -14,7 +14,7 @@
   <footer class="site-footer nunitosans-semibold">
     <div>
       <div>
-        <a href="index.html">
+        <a href="http://wicore.mx/">
           <img class="site-footer-logo" src="<?php echo get_template_directory_uri() . '/img/logos/wicore-blue-logo.png' ?>">
         </a>
       </div>
