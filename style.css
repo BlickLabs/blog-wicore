@@ -542,6 +542,10 @@ Tags: blue, white, light, two-columns, right-sidebar, responsive-layout, custom-
   margin-top: 6px;
 }
 
+.recent-posts-widget-with-thumbnails {
+  box-shadow: 0 16px 33px 0 rgba(0, 0, 0, 0.17);
+}
+
 /*--------------------------------------------------------------
 # Normalize
 --------------------------------------------------------------*/
