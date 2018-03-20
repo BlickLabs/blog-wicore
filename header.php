@@ -52,7 +52,7 @@
           <span>Nosotros</span>
         </div>
       </a>
-      <a href=http://blog.wicore.getmore.mx/" class="navbar-option-link active-link active-link-scroll">
+      <a href="http://blog.wicore.mx/" class="navbar-option-link active-link active-link-scroll">
         <div class="navbar-option-link-content">
           <span>Blog</span>
         </div>
@@ -107,7 +107,7 @@
             <span class="hamburger-text">Nosotros</span>
           </div>
         </a>
-        <a data-attribute="" href="http://blog.wicore.getmore.mx/" class="hamburger-option-link">
+        <a data-attribute="" href="http://blog.wicore.mx/" class="hamburger-option-link">
           <div class="hamburger-text-container">
             <span class="hamburger-text hamburger-active">Blog</span>
           </div>
