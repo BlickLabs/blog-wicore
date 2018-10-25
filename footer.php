@@ -36,11 +36,15 @@
         </div>
         <div class="site-footer-text">
           <div class="first-col-info">
-          <span><span class="nunitosans-bold">Centro de Distribución</span><br>Parque Industrial Tultipark II.<br>Tultitlán Edo. México CP 54948</span>
-        </div>
-        <div>
-          <span><span class="nunitosans-bold">Oficinas</span><br>Calle Montes Urales 424. Lomas<br>de Chapultepec V Secc. CDMX</span>
-        </div>
+            <a href="https://goo.gl/maps/hpLiJpnTefq" target="_blank">
+              <span><span class="nunitosans-bold">Centro de Distribución</span><br>Parque Industrial Tultipark II.<br>Tultitlán Edo. México CP 54948</span>
+            </a>
+          </div>
+          <div>
+            <a href="https://goo.gl/maps/1E1c4aNpGXz" target="_blank">
+              <span><span class="nunitosans-bold">Oficinas</span><br>Torre del Árbol - Boulevard Manuel<br>Ávila Camacho #184, Piso 17, Reforma<br>Social, Miguel Hidalgo, Ciudad de México</span>
+            </a>
+          </div>
         </div>
       </div>
       <div class="site-footer-column">
