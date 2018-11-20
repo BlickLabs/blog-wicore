@@ -9,7 +9,14 @@
 
 ?>
 
-<article id="post-<?php the_ID(); ?>" <?php post_class('wicore-article'); ?>>
+<?php if (!is_tag()) {?>
+  <article id="post-<?php the_ID(); ?>" <?php post_class('wicore-article'); ?>>
+<?php } ?>
+
+<?php if (is_tag()) {?>
+  <article id="post-<?php the_ID(); ?>" <?php post_class('wicore-article-tag'); ?>>
+<?php } ?>
+
   <?php if (!is_single()) { ?>
       <div class="hentry-wrapper hentry-wrapper-wicore">
   <?php } else if (is_single()) { ?>
