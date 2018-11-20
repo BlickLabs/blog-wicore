@@ -9,7 +9,7 @@
 
 get_header(); ?>
 
-	<div class="site-content-wrapper hola">
+	<div class="site-content-wrapper <?php if (is_tag()) { ?>site-content-wrapper-tag<?php } ?>">
 
 		<div id="primary" class="content-area">
 			<main id="main" class="site-main" role="main">
