@@ -542,7 +542,7 @@ Tags: blue, white, light, two-columns, right-sidebar, responsive-layout, custom-
 
 .entry-content img {
   height: auto;
-  width: 100%;
+  width: 80%; /* Change to Wicore blog */
 }
 
 .rpwwt-post-date {
