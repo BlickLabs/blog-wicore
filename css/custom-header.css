@@ -111,6 +111,13 @@
   position: absolute;
 }
 
+.navbar-phone {
+  color: #fff;
+  cursor: pointer;
+  font-size: 0.8125rem;
+  letter-spacing: 1.9px;
+  text-transform: uppercase;
+}
 .navbar-phone-container {
   border-bottom: 57px solid #3483c0;
   border-left: 22px solid transparent;
@@ -120,7 +127,6 @@
   top: 0;
   width: 324px;
 }
-
 .navbar-phone-content {
   -ms-flex-align: center;
       align-items: center;
@@ -131,16 +137,13 @@
   height: 57px;
   padding-left: 40px;
 }
-
 .navbar-phone-icon {
   height: 17px;
   width: 17px;
 }
-
 .navbar-phone-icon-container {
   margin-right: 17px;
 }
-
 .navbar-phone-number {
   color: #fff;
   font-size: 0.875rem;
@@ -153,6 +156,10 @@
     justify-content: space-between;
     height: 70px;
     padding: 0 18px;
+  }
+
+  .navbar-phone {
+    font-size: 0.75rem;
   }
 
   .navbar-phone-container {
