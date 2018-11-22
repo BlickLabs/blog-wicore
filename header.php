@@ -65,10 +65,7 @@
     </div>
     <div class="navbar-phone-container">
       <div class="navbar-phone-content">
-        <div class="navbar-phone-icon-container">
-          <img class="navbar-phone-icon" src="<?php echo get_template_directory_uri() . '/img/icons/phone-icon.png'?>">
-        </div>
-        <span class="navbar-phone-number">55.1209.1276</span>
+        <a class="navbar-phone nunitosans-extrabold" href="https://meetings.hubspot.com/josu" target="_blank">Agendar llamada</a>
       </div>
     </div>
     <div data-attribute="" class="navbar-hamburguer-visibility"  id="hamburgerMenu">
@@ -91,7 +88,7 @@
           <img class="hamburger-close" src="<?php echo get_template_directory_uri() . '/img/icons/close-menu.png' ?>">
         </div>
       </div>
-      <div class="hamburger-menu-body" data-attribute="">
+      <div class="hamburger-menu-body nunitosans-regular" data-attribute="">
         <a data-attribute="" href="http://wicore.mx/" class="hamburger-option-link">
           <div class="hamburger-text-container">
             <span class="hamburger-text">Inicio</span>
@@ -117,6 +114,7 @@
             <span class="hamburger-text">Contáctanos</span>
           </div>
         </a>
+        <a data-attribute="" class="navbar-phone nunitosans-regular" href="https://meetings.hubspot.com/josu" target="_blank">Agendar llamada</a>
       </div>
     </div>
   </nav>
