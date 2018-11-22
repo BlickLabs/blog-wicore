@@ -397,6 +397,8 @@ Tags: blue, white, light, two-columns, right-sidebar, responsive-layout, custom-
 
 .entry-content-single {
   color: #7e7e7e;
+  display: flex;
+  flex-direction: column;
   font-family: NunitoSans;
   font-size: 15px;
   font-weight: 500;
@@ -404,6 +406,10 @@ Tags: blue, white, light, two-columns, right-sidebar, responsive-layout, custom-
   line-height: 30px;
   letter-spacing: 0.6px;
   padding: 0 47px 15px 47px;
+}
+
+.entry-content-single p {
+  margin: 10px 0;
 }
 
 .entry-content-single p a {
