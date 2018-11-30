@@ -58,7 +58,7 @@
           <a href="http://wicore.mx/nosotros.html">
             <span class="site-footer-link">Nosotros</span>
           </a>
-          <a href="http://wicore.mx/contacto.html">
+          <a href="http://wicore.mx/contactanos.html">
             <span class="site-footer-link">Contacto</span>
           </a>
         </div>
