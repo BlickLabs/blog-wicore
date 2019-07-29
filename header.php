@@ -65,7 +65,7 @@
     </div>
     <div class="navbar-phone-container">
       <div class="navbar-phone-content">
-        <a class="navbar-phone nunitosans-extrabold" href="https://meetings.hubspot.com/josu" target="_blank">Agendar llamada</a>
+        <a class="navbar-phone nunitosans-extrabold" href="tel:5512091276" target="_blank">(55) 12-09-12-76</a>
       </div>
     </div>
     <div data-attribute="" class="navbar-hamburguer-visibility"  id="hamburgerMenu">
@@ -114,7 +114,7 @@
             <span class="hamburger-text">Contáctanos</span>
           </div>
         </a>
-        <a data-attribute="" class="navbar-phone nunitosans-regular" href="https://meetings.hubspot.com/josu" target="_blank">Agendar llamada</a>
+        <a data-attribute="" class="navbar-phone nunitosans-regular" href="tel:5512091276" target="_blank">(55) 12-09-12-76</a>
       </div>
     </div>
   </nav>
