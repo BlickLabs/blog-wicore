@@ -26,8 +26,8 @@
           <h1 class="site-footer-titles nunitosans-extrabold">Hablemos</h1>
         </div>
         <div class="site-footer-text site-footer-column">
-          <span>hola@wicore.mx<br>+(52)55.1209.1276</span>
-          <span></span>
+          <span><a href="mailto:hola@wicore.mx">hola@wicore.mx</a></span>
+          <span><a href="tel:5512091276" target="_blank">(55) 12-09-12-76</a></span>
         </div>
       </div>
       <div class="site-footer-info-content">
